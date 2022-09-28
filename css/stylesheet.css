@@ -1,0 +1,216 @@
+:root {
+  --background-color: #f9f3ef; }
+
+.card-clock {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #ff9e8a;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  /* position: absolute; */
+  bottom: -20px;
+  margin: 0px auto;
+  left: 45%;
+  align-items: center;
+  margin-top: 24px; }
+
+a {
+  color: black; }
+
+h1 {
+  padding: 1.5rem;
+  text-align: center;
+  font: bold; }
+
+body {
+  background-color: var(--background-color);
+  padding: auto; }
+
+.navbar {
+  border-bottom: 0.2px solid;
+  border-color: black;
+  color: black;
+  padding: 10px; }
+
+.form-control {
+  background: #FFFFFF;
+  border-radius: 55px;
+  border-style: solid; }
+
+.input-group {
+  position: relative; }
+
+.btn-bottom {
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  /* position: absolute; */
+  left: 555px;
+  padding: 1px;
+  color: #f9f3ef;
+  display: block;
+  margin: 0px auto;
+  width: 100px; }
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: yellow;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: absolute;
+  bottom: -20px;
+  margin: 0px auto;
+  left: 45%;
+  align-items: center; }
+
+#right {
+  border-right: 0.2px solid;
+  border-color: black; }
+
+#btn-footer {
+  text-align: center;
+  width: 229px;
+  background-color: black;
+  border-radius: 20px;
+  padding-top: 1px;
+  width: 211px; }
+
+#btn-day {
+  text-align: center;
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px; }
+
+.checked {
+  color: orange; }
+
+.middle {
+  background-color: white; }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px; }
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px; }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#icon {
+  top: 39px;
+  position: relative;
+  display: inline-block;
+  width: 112px;
+  height: 20px; }
+
+#category {
+  background-color: #ffe99f;
+  border-color: black; }
+
+#categorys {
+  background-color: #ffb7a8;
+  border-color: black; }
+
+#categoryes {
+  background-color: #a1c6ff;
+  border-color: black; }
+
+#categories {
+  background-color: #d9b6fe;
+  border-color: black; }
+
+#Top-Categories {
+  position: relative; }
+
+#circle {
+  position: relative;
+  left: 136px;
+  top: -30px;
+  height: 0px;
+  width: 0px;
+  background-color: yellow;
+  border-radius: 50%; }
+
+#testominal {
+  background-color: #ffe26c;
+  border-color: black; }
+
+/* Float four columns side by side */
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; } }
+/* Style the counter cards */
+.card {
+  border-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1; }
+
+#image-mentor {
+  margin-left: 63px;
+  border-color: black; }
+
+.card-icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #3b5dfe;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  /* position: absolute; */
+  bottom: -20px;
+  margin: 0px auto;
+  left: 45%;
+  align-items: center;
+  margin-top: 24px; }
+
+.card-camera {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #0099fd;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  /* position: absolute; */
+  bottom: -20px;
+  margin: 0px auto;
+  left: 45%;
+  align-items: center;
+  margin-top: 24px; }
+
+#line-through {
+  text-decoration: line-through; }
+
+#card-pic {
+  border-color: black; }
+
+#search-header {
+  position: absolute;
+  width: 40rem;
+  left: 364px;
+  top: 15px; }
+
+/*# sourceMappingURL=stylesheet.css.map */
